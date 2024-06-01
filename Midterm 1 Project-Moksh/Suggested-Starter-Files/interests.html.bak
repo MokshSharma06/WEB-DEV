@@ -1,0 +1,39 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+   <!--
+  Author: Moksh Sharma
+    Date:   3/07/22
+
+    Filename: Interests.html
+   -->
+   
+   <link href="styles.css" rel="stylesheet" />
+<link href="layout.css" rel="stylesheet" />
+   
+   </head>
+
+<body>
+ <header><a href="bio_home.html"> <img src="What is My passion.png" alt="Football is Passion" /> </header>
+  <div> <nav>
+      <ul>
+         <li><a href="bio_home.html">Moksh's World</a></li>
+         <li><a href="Interests.html"> Into Moksh's Life</a></li>
+         <li><a href="https://www.instagram.com/iam_highperhaps/">Instagram</a></li>
+         <li><a href="https://www.facebook.com/mokshs"> Facebook</a></li>
+		 </ul> </nav></div>
+		 
+	 <h1 id="Football"><I>Football</I></h1>
+	 <Strong id="Football1"> Anybody who knows me or has known me knows my immense love for soccer. Soccer as been my comfort and favourite sport for a long time now. </strong>
+	 
+     <p> Since childhood, I would wake up every night to watch soccer matches on television and the same continues now. It was the outcome of seeing matches that my interest grew in learning soccer as well. Little me, would learn their patterns on how to tackle, defend and hit goal by repeating the same movements as the players, who played on television. Soon, I was able to master my ability on scoring goals and the interest in football kept increasing. I even played many inter-school soccer competitions during my primary and high school. Since then, not a single day goes by when i don't play soccer. It's like a regime that I don't ever want to break. </p>
+	 
+	 <h1> <I>Singing </I></h1>
+	 <img src="IMG_4801.JPG" width="1000" height="650" alt="singing pic">
+	
+	<p id="Singing"> My passion for singing comes from deep within my soul, mind and heart. When I sing, I sing with all of me, putting everything I can into it. I have always had a great passion for singing, ever since I was young. Although I am shy and still get nervous and shaky in front of others, in my own time, singing is my cigarette, my alcoholic drink, my escape from all the anger and the pain.</p>
+	   
+	   <Footer>  Moksh Sharma &#10084; 0783543; &#10084; &#64;Iam_highperhaps &#10084; <a href="mailto:Mokshshama06@gmail.com"> email-Moksh Sharma</a>. <br>
+   </footer>
+</body>
+</html>

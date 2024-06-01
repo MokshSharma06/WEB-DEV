@@ -1,0 +1,57 @@
+@charset "utf-8";
+@font-face { 
+ font-family: Oswald; 
+ src:url('Oswald-VariableFont_wght.ttf') format('truetype'); 
+}
+
+
+/*
+   New Perspectives on HTML5 and CSS3, 8th Edition
+   Tutorial 2
+   Review Assignment
+   
+   TSS Layout Styles
+   Filename: layout.css
+
+*/
+
+
+
+
+li{
+
+	display: inline-block;
+	margin: 80px;
+	background-color: white;
+}
+
+
+body {
+	margin: auto;
+	width: 100%;
+	max-width: 1020px;
+	min-width: 1020px;
+}
+
+body > header {
+	margin: 0;
+	padding: 0px;
+	width: 100%;
+	overflow: hidden;
+}
+
+
+
+body > nav {
+	width: 100%;
+	float: left;
+	margin: 0 0 0 2%;
+}
+
+
+img{
+	
+	float:left;
+	
+}
+
