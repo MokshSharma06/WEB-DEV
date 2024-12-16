@@ -293,31 +293,31 @@
                     Contact Us
                 </h1>
                 <div class="row">
+                    <form action="process_form.php" method="POST">
                     <div class="col">
-                        <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                        <input type="text" class="form-control" placeholder="First name" aria-label="First name" name="first_name" required>
                     </div>
                     <div class="col">
-                        <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                        <input type="text" class="form-control" placeholder="Last name" aria-label="Last name" name="last_name" required>
                     </div>
                     <div class="row">
                         <div class="col">
-                            <input type="email" class="form-control" placeholder="Email" aria-label="email" width="50%">
+                            <input type="email" class="form-control" placeholder="Email" aria-label="email" name="email" required>
                         </div>
                         <div class="col">
-                            <input type="tel" class="form-control" placeholder="Phone number" aria-label="Phone Number"
-                                width="50%">
+                            <input type="tel" class="form-control" placeholder="Phone number" aria-label="Phone Number" name="phone" required>
                         </div>
                         <div class="row">
                             <div class="message">
-                                <textarea id="message" name="message" placeholder="Type Here"></textarea><br>
+                                <textarea id="message" class="form-control" name="message" placeholder="Type Here" required></textarea><br>
                             </div>
                             <div class="btn">
-                                <input type="submit" value="Submit" width="20px">
-
+                                <input type="submit" value="Submit" class="btn btn-primary">
                             </div>
-
-
                         </div>
+                    </div>
+                </div>
+            </form>
                     </div>
 
         </section>
